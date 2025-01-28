@@ -1,0 +1,14 @@
+links:
+- properties:
+    protocol: TCP
+  source: switch1
+  target: server1
+nodes:
+- id: switch1
+  properties:
+    vendor: Unknown
+  type: device
+- id: server1
+  properties:
+    vendor: Unknown
+  type: device
